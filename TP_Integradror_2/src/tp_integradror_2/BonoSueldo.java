@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package practica2;
+package tp_integradror_2;
 
 /**
  *
@@ -13,6 +13,18 @@ public class BonoSueldo {
     private int mesLiquidacion;
     private int anioLiquidacion;
     private double montoLiquidacion;
+    private String[][] haberes;
+
+    public BonoSueldo(){
+        haberes = new String[10][4];
+    }
+    public String[][] getHaberes() {
+        return haberes;
+    }
+
+    public void setHaberes(String[][] haberes) {
+        this.haberes = haberes;
+    }
 
     public Empleado getEmpleado() {
         return empleado;
