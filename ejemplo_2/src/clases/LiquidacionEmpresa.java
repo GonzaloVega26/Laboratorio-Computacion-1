@@ -97,10 +97,10 @@ public class LiquidacionEmpresa {
 
     public static void cargarNiveles() {
         NivelAcademico secundario = new NivelAcademico(10, "Secundario Completo", 10);
+        nivelesAcademicos.add(secundario);
         NivelAcademico universitario = new NivelAcademico(20, "Universitario Completo", 30);
         NivelAcademico maestria = new NivelAcademico(30, "Maestría Completo", 40);
         NivelAcademico doctorado = new NivelAcademico(40, "Doctorado Completo", 50);
-        nivelesAcademicos.add(secundario);
         nivelesAcademicos.add(universitario);
         nivelesAcademicos.add(maestria);
         nivelesAcademicos.add(doctorado);
